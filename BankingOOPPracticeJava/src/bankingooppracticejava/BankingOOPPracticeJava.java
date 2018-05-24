@@ -4,7 +4,8 @@
  * and open the template in the editor.
  */
 package bankingooppracticejava;
-
+import java.util.Scanner;
+import java.util.ArrayList;
 /**
  *
  * @author damilola.adenuga
@@ -16,6 +17,16 @@ public class BankingOOPPracticeJava {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+       
+//       
+//        BankingSystems myBankingSystems = BankingSystems.getInstance();
+//        
+//        myBankingSystems.selectionMenu();    
+//        
+        Bank myBank = new Bank(BankingSystems.BankName.FBN);
+        
+        myBank.getBankAccountsCount();
     }
     
 }
